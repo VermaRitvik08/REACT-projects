@@ -1,0 +1,43 @@
+.list{
+    flex: 1;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.title-todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #d8f3dc;
+    color: green;
+}
+
+.input{
+    margin-right: 10px;
+}
+
+.delete:hover{
+    background-color: #ffccd5;
+    color: red;
+}
+
+.edit:hover{
+    background-color: #bfdbf7;
+    color: blue;
+}
+
