@@ -1,4 +1,4 @@
-Component pages are a work in progress :((
+Sidebar pages are a work in progress :((
 
 # Getting Started with Create React App
 
