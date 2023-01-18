@@ -1,0 +1,76 @@
+body {
+
+    font-family: Arial, sans-serif;
+  }
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 120px;
+    object-fit: contain;
+    margin-left: 0 20px;
+    margin-top: 12px;
+}
+
+.bar{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+.icon{
+    background-color: 	#ff9900;
+    padding: 4px;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.optionLineOne{
+    font-size: 10px;
+}
+
+.optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.shoppingCart{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.cartCount{
+    margin-right: 10px;
+    margin-left: 10px;
+}

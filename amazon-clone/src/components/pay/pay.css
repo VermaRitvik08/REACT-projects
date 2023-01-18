@@ -1,0 +1,25 @@
+
+.pay_container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;   
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment_row{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.pay_title{
+    flex: 0.2;
+}
+
+.pay_address, .pay_items, .pay_details{
+    flex: 0.8;
+}
+    
